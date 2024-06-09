@@ -7,6 +7,11 @@ import java.util.Queue;
 import java.util.Timer;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
+/**
+ * Абстрактный класс представляющий собой описание светофоров и его работу.
+ * Все события хранятся внутри светофора и передаются другим светофорам данного "перекрестка".
+ * Имеет константные поля с длительностью работы светофора.
+ */
 public abstract class TrafficLight {
     private String id;
     protected TrafficLightState state;

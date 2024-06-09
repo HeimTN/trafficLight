@@ -1,5 +1,8 @@
 package org.heimtn.traffic.obj;
 
+/**
+ * Класс представляющий пешеходный светофор
+ */
 public class PedestrianTrafficLight extends TrafficLight {
     private int numPedestrian;
 

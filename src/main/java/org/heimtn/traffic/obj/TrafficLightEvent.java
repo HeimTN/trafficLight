@@ -1,5 +1,8 @@
 package org.heimtn.traffic.obj;
 
+/**
+ * Класс представляющий события, например смена света светофора
+ */
 public class TrafficLightEvent {
     private String type;
     private int numCars;

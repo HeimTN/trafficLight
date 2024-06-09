@@ -1,5 +1,10 @@
 package org.heimtn.traffic.obj;
 
+
+/**
+ * Класс представляющий автомобильный светофор.
+ * Имеет дополнительно константу в виде длительности желтого света.
+ */
 public class CarTrafficLight extends TrafficLight {
     private int numCar;
 
